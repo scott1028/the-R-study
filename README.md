@@ -1,46 +1,69 @@
 #### The R Study Note
 
+
+* define & declare variable
 ```
-# define & declare variable
 x = 10
 x <- 10
 10 -> 10
+```
 
-# show all variables for current workspace
+* show all variables for current workspace
+```
 ls()
+```
 
-# delete a variable, ex: a <- 100; rm("a");
+* delete a variable, ex: a <- 100; rm("a");
+```
 rm("a")
+```
 
-# delete a variables in current workspace
+* delete a variables in current workspace
+```
 rm(list = ls())
+```
 
-# program block, return final line result
+* program block, return final line result
+```
 {
 	x <- 10
 	x + 100
 }
 P.S it will return 110.
+```
 
-# Show library you have installed in your PC.
+* Show library you have installed in your PC.
+```
 library()
+```
 
-# Install a new package, then select a one package you want.
+* Install a new package, then select a one package you want.
+```
 install.packages()
+```
 
-# update package
+* update package
+```
 update.packages()
+```
 
-# remove library in your PC.( Don't do it )
+* remove library in your PC.( Don't do it )
+```
 detach("rgl")
+```
 
-# import library to current workspace
+* import library to current workspace
+```
 library("rgl")
+```
 
-# show library you have imported.
+* show library you have imported.
+```
 search()
+```
 
-# show function source code & execute
+* show function source code & execute
+```
 ls		# show source
 ls()    # execute ls function
 ```
