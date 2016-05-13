@@ -39,6 +39,10 @@ library("rgl")
 
 # show library you have imported.
 search()
+
+# show function source code & execute
+ls		# show source
+ls()    # execute ls function
 ```
 
 #### package & library
