@@ -4,6 +4,9 @@
 # show all variables for current workspace
 ls()
 
-# delete a variables, ex: a <- 100; rm("a");
+# delete a variable, ex: a <- 100; rm("a");
 rm("a")
+
+# delete a variables in current workspace
+rm(list = ls())
 ```
