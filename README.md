@@ -70,6 +70,10 @@ fix(ls)     # open source code in another window
 edit(ls)    # open source code in another window
 ```
 
+* 向量陣列宣告與型態查詢
+
+![Alt text](https://raw.githubusercontent.com/scott1028/the-R-study/master/array_and_type.png "array_and_type.png")
+
 #### package & library
 
 - A package is a standardized collection of material extending R, e.g. providing code, data, or documentation. A library is a place (directory) where R knows to find packages it can use (i.e., which were installed). R is told to use a package (to “load” it and add it to the search path) via calls to the function library. I.e., library() is employed to load a package from libraries containing packages.
