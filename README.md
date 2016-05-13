@@ -73,6 +73,7 @@ edit(ls)    # open source code in another window
 * 向量陣列宣告與型態查詢
 
 ![Alt text](https://raw.githubusercontent.com/scott1028/the-R-study/master/array_and_type.png "array_and_type.png")
+- R 裏面所有的變數都是以向量 & Array 方式存在 a=1 就等於 a = [1]，存取 Array 變數名稱預設會回復第一個元素！
 
 #### package & library
 
