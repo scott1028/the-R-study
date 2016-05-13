@@ -14,4 +14,11 @@ rm("a")
 
 # delete a variables in current workspace
 rm(list = ls())
+
+# program block, return final line result
+{
+	x <- 10
+	x + 100
+}
+P.S it will return 110.
 ```
