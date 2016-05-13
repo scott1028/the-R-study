@@ -25,9 +25,8 @@ P.S it will return 110.
 # Show library you have installed in your PC.
 library()
 
-# Install a new package
-install.packages("rgl")
-install.packages("rgl", repos = "http://crna.csie.ntu.edu.tw")
+# Install a new package, then select a one package you want.
+install.packages()
 
 # update package
 update.packages()
