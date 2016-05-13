@@ -1,6 +1,11 @@
 #### The R Study Note
 
 ```
+# define & declare variable
+x = 10
+x <- 10
+10 -> 10
+
 # show all variables for current workspace
 ls()
 
