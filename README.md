@@ -26,8 +26,8 @@ rm(list = ls())
 * program block, return final line result
 ```
 {
-	x <- 10
-	x + 100
+    x <- 10
+    x + 100
 }
 P.S it will return 110.
 ```
@@ -64,8 +64,10 @@ search()
 
 * show function source code & execute
 ```
-ls		# show source
-ls()    # execute ls function
+ls          # show source
+ls()        # execute ls function
+fix(ls)     # open source code in another window
+edit(ls)    # open source code in another window
 ```
 
 #### package & library
